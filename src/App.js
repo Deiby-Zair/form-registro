@@ -1,13 +1,13 @@
 import './App.css';
-import ClassComponent from './components/ClassComponent';
-import FuncComponent from './components/FuncComponent';
+import Container from '@mui/material/Container';
+import FormSignUp from './components/FormSignUp';
 
 function App() {
   return (
-    <div>
-      <ClassComponent />
-      <FuncComponent />
-    </div>
+    <Container component="section" maxWidth="sm">
+      <h1>Formulario Registro</h1>
+      <FormSignUp />
+    </ Container>
   );
 }
 
